@@ -10,6 +10,8 @@
           <e p="AnimationMoveTo.cs" t="Include" />
           <e p="AnimationScaleTo.cs" t="Include" />
           <e p="AnimationTo.cs" t="Include" />
+          <e p="ChangeAnim.cs" t="Include" />
+          <e p="GenerateRectangles.cs" t="Include" />
           <e p="LoadScene.cs" t="Include" />
           <e p="LoginPage.cs" t="Include" />
           <e p="News.cs" t="Include" />
