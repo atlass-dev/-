@@ -6,14 +6,14 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Scenes" t="Include">
-          <e p="NewBehaviourScript.cs" t="Include" />
-        </e>
         <e p="Scripts" t="Include">
           <e p="AnimationMoveTo.cs" t="Include" />
           <e p="AnimationScaleTo.cs" t="Include" />
           <e p="AnimationTo.cs" t="Include" />
           <e p="LoadScene.cs" t="Include" />
+          <e p="LoginPage.cs" t="Include" />
+          <e p="News.cs" t="Include" />
+          <e p="ShowNews.cs" t="Include" />
         </e>
       </e>
       <e p="Temp/bin" t="ExcludeRecursive" />
