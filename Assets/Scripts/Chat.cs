@@ -19,9 +19,11 @@ public class Chat : MonoBehaviour
     public Button send;
     public Text textview;
     public InputField field;
-
+    public Button back;
     void Start()
     {
+        back.onClick.AddListener(ChooseDialog);
+        
         ChooseDialog();
         var list = new List<string[]>();
         list.Add(new []{"Василий", "Привет всем!"});
@@ -52,6 +54,12 @@ public class Chat : MonoBehaviour
     {
         field.enabled = s;
         foreach (var child in field.GetComponentsInChildren<MaskableGraphic>())
+        {
+            child.enabled = s;
+        }
+
+        back.enabled = s;
+        foreach (var child in back.GetComponentsInChildren<MaskableGraphic>())
         {
             child.enabled = s;
         }
