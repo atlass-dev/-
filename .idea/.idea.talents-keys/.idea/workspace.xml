@@ -25,10 +25,12 @@
       <change afterPath="$PROJECT_DIR$/Assets/Images/qwe1.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Images/qwe1.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.talents-keys/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.talents-keys/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/chelovek.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/chelovek.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BackGroundDown.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BackGroundDown.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameObject.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GameObject.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Rating.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Rating.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GenerateRectangles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GenerateRectangles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationMoveTo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/idea/unity/2019.4.12f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/InputField.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SetPrefSize.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/ly/unity/talents-keys/Assets/Prefabs/BackGroundDown.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/News.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/idea/unity/2019.4.12f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Text.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -113,7 +116,7 @@
       <workItem from="1604133410433" duration="3172000" />
       <workItem from="1604153578500" duration="5737000" />
       <workItem from="1604162214574" duration="139000" />
-      <workItem from="1604166467975" duration="8752000" />
+      <workItem from="1604166467975" duration="9371000" />
     </task>
     <task id="LOCAL-00001" summary="ыс">
       <created>1604074864033</created>
@@ -213,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604173591790</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="raiting">
+      <created>1604177008017</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604177008017</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,17 +256,18 @@
     <MESSAGE value="пп" />
     <MESSAGE value="good chat" />
     <MESSAGE value="good chat button back" />
-    <option name="LAST_COMMIT_MESSAGE" value="good chat button back" />
+    <MESSAGE value="raiting" />
+    <option name="LAST_COMMIT_MESSAGE" value="raiting" />
   </component>
   <component name="WindowStateProjectService">
     <state x="591" y="275" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1604172128907">
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
     <state x="591" y="275" width="728" height="482" key="MultipleFileMergeDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1604172128907" />
-    <state x="555" y="249" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604173597068">
+    <state x="555" y="249" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604177012219">
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
-    <state x="555" y="249" width="800" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1026@0.0.1920.1026" timestamp="1604173597068" />
+    <state x="555" y="249" width="800" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1026@0.0.1920.1026" timestamp="1604177012219" />
     <state x="741" y="432" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604173619052">
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
