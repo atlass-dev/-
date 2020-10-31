@@ -11,14 +11,17 @@ using Image = UnityEngine.UI.Image;
 public class Coaches : MonoBehaviour
 {
     public string[] arraySmall;
+    public string[] arrayName;
+    public string[] arrayDesc;
     public Sprite[] sprites;
-    public string[] arrayBig;
     public GameObject small;
-    public GameObject big;
+    public GameObject content;
     private List<GameObject> list = new List<GameObject>();
     private VerticalLayoutGroup _group;
     void Start()
     {
+        RectTransform rect = content.GetComponent<RectTransform>();
+        rect.transform.localPosition = new Vector3(0.0f, 329.0f, 0.0f);
         _group = GetComponent<VerticalLayoutGroup>();
         setSmall();
     }
@@ -32,22 +35,6 @@ public class Coaches : MonoBehaviour
         list.Clear();
     }
 
-    void SetBig(int id)
-    {
-        RemovedList();
-        var go = Instantiate(big, transform);
-        var text = go.GetComponentInChildren<Text>();
-        text.text = arrayBig[id];
-        go.GetComponentsInChildren<Image>()[1].sprite = sprites[id];
-        var button = go.GetComponentInChildren<Button>();
-        button.onClick.AddListener(setSmall);
-
-        var h = go.GetComponent<RectTransform>().rect.height;
-        var tr = GetComponent<RectTransform>();
-        tr.sizeDelta = new Vector2(tr.rect.width, h);
-
-        list.Add(go);
-    }
 
     void setSmall()
     {
@@ -62,10 +49,12 @@ public class Coaches : MonoBehaviour
             for (var i = 0; i < arraySmall.Length; i++)
             {
                 var pr = Instantiate(small, transform);
+                Text[] texts = pr.GetComponentsInChildren<Text>();
+                texts[0].text = arrayName[i];
+                texts[1].text = arrayDesc[i];
                 pr.GetComponentInChildren<Text>().text = arraySmall[i];
                 pr.GetComponentsInChildren<Image>()[1].sprite = sprites[i];
-                var i1 = i;
-                pr.GetComponent<Button>().onClick.AddListener(() => SetBig(i1));               
+                var i1 = i;              
                 list.Add(pr);
             }
         }
