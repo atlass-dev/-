@@ -18,6 +18,7 @@ public class GenerateRectangles : MonoBehaviour
             var compsText = j.GetComponentsInChildren<Text>();
             for (var e = 4; e < 9; e++)
             {
+                compsText[e - 4].text = "Иванов Иван\n"+texts[index]; 
                 comps[e].sprite = sprit[index++];
             }
         }
