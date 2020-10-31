@@ -19,6 +19,7 @@
           <e p="News.cs" t="Include" />
           <e p="ShowNews.cs" t="Include" />
         </e>
+        <e p="SetPrefSize.cs" t="Include" />
       </e>
       <e p="Temp/bin" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
