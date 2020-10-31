@@ -11,13 +11,16 @@
           <e p="AnimationScaleTo.cs" t="Include" />
           <e p="AnimationTo.cs" t="Include" />
           <e p="ChangeAnim.cs" t="Include" />
+          <e p="ChangeInteres.cs" t="Include" />
+          <e p="Chat.cs" t="Include" />
           <e p="Coaches.cs" t="Include" />
           <e p="CoachesSwipe.cs" t="Include" />
+          <e p="GenerateInteres.cs" t="Include" />
           <e p="GenerateRectangles.cs" t="Include" />
           <e p="LoadScene.cs" t="Include" />
           <e p="LoginPage.cs" t="Include" />
           <e p="News.cs" t="Include" />
-          <e p="ShowNews.cs" t="Include" />
+          <e p="Tasks.cs" t="Include" />
         </e>
         <e p="SetPrefSize.cs" t="Include" />
       </e>
