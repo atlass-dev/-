@@ -18,17 +18,25 @@ public class Chat : MonoBehaviour
     public GameObject prefChat;
     public Button send;
     public Text textview;
-    public GameObject movied;
-    public Vector2 start;
-    public Vector2 end;
-    
+    public InputField field;
+    public Button back;
     void Start()
     {
+        back.onClick.AddListener(ChooseDialog);
+        
         ChooseDialog();
+        var list = new List<string[]>();
+        list.Add(new []{"Василий", "Привет всем!"});
+        list.Add(new []{"Мария", "Здравствуйте!"});
+        list.Add(new []{"Олег Иванович", "Привет всем!"});
+        list.Add(new []{"Мария", "Как дела?"});
+        list.Add(new []{"Василий", "Мария, Отлично!"});
+        dic["Общий чат"] = list;
     }
 
     private void ChooseDialog()
     {
+        SetEnabled(false);
         RemovedList();
         for (var e = 0; e < arraySmall.Length; e++)
         {
@@ -42,10 +50,24 @@ public class Chat : MonoBehaviour
         }
     }
 
+    void SetEnabled(bool s)
+    {
+        field.enabled = s;
+        foreach (var child in field.GetComponentsInChildren<MaskableGraphic>())
+        {
+            child.enabled = s;
+        }
+
+        back.enabled = s;
+        foreach (var child in back.GetComponentsInChildren<MaskableGraphic>())
+        {
+            child.enabled = s;
+        }
+    }
+
     void OpenChat(string name)
     {
-        //var an = movied.AddComponent<AnimationMoveTo>();
-       
+        SetEnabled(true);
         RemovedList();
         if (!dic.ContainsKey(name))
             dic[name] = new List<string[]>();
@@ -67,6 +89,7 @@ public class Chat : MonoBehaviour
     void AddMessage(string chatName)
     {
         dic[chatName].Add(new []{MyName, textview.text});
+        field.text = "";
         OpenChat(chatName);
     }
     private void RemovedList()
