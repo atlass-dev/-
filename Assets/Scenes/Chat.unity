@@ -291,7 +291,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1266494437}
   m_HandleRect: {fileID: 1266494436}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1092,7 +1092,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 115118f32f34eb04ba4a5b77ebb6e84d, type: 3}
     m_FontSize: 50
     m_FontStyle: 2
     m_BestFit: 0
@@ -1746,7 +1746,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 115118f32f34eb04ba4a5b77ebb6e84d, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
