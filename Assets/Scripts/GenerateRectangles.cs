@@ -23,8 +23,4 @@ public class GenerateRectangles : MonoBehaviour
             }
         }
     }
-    void Update()
-    {
-        
-    }
 }
