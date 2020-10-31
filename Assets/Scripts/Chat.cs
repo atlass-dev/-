@@ -20,6 +20,7 @@ public class Chat : MonoBehaviour
     public Text textview;
     public InputField field;
     public Button back;
+    public GameObject _lock;
     void Start()
     {
         back.onClick.AddListener(ChooseDialog);
@@ -36,8 +37,11 @@ public class Chat : MonoBehaviour
 
     private void ChooseDialog()
     {
-        SetEnabled(false);
         RemovedList();
+        var mlock = Instantiate(_lock, transform);
+        list.Add(mlock);
+        SetEnabled(false);
+        
         for (var e = 0; e < arraySmall.Length; e++)
         {
             var a = Instantiate(pref, transform);
