@@ -20,12 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96729160-df65-4e9f-84cd-640d0233b21f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Images/Rectangle 13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/Rectangle 13.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/baseline_keyboard_backspace_white_48dp 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/baseline_keyboard_backspace_white_48dp 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/qwe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/qwe.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/qwe1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/qwe1.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.talents-keys/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.talents-keys/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Chat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Chat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BackGroundDown.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BackGroundDown.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameObject.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GameObject.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Rating.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Rating.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GenerateRectangles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GenerateRectangles.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +43,7 @@
     <setting file="file://$USER_HOME$/idea/unity/2019.4.12f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/InputField.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SetPrefSize.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/News.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/idea/unity/2019.4.12f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Text.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,6 +54,7 @@
         <option value="$PROJECT_DIR$/Assets/SetPrefSize.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimationMoveTo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Chat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GenerateRectangles.cs" />
       </list>
     </option>
   </component>
@@ -108,7 +113,7 @@
       <workItem from="1604133410433" duration="3172000" />
       <workItem from="1604153578500" duration="5737000" />
       <workItem from="1604162214574" duration="139000" />
-      <workItem from="1604166467975" duration="6321000" />
+      <workItem from="1604166467975" duration="8752000" />
     </task>
     <task id="LOCAL-00001" summary="ыс">
       <created>1604074864033</created>
@@ -201,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604172054975</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="good chat button back">
+      <created>1604173591790</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604173591790</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,21 +245,22 @@
     <MESSAGE value="bad commit" />
     <MESSAGE value="пп" />
     <MESSAGE value="good chat" />
-    <option name="LAST_COMMIT_MESSAGE" value="good chat" />
+    <MESSAGE value="good chat button back" />
+    <option name="LAST_COMMIT_MESSAGE" value="good chat button back" />
   </component>
   <component name="WindowStateProjectService">
     <state x="591" y="275" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1604172128907">
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
     <state x="591" y="275" width="728" height="482" key="MultipleFileMergeDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1604172128907" />
-    <state x="555" y="249" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604172065864">
+    <state x="555" y="249" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604173597068">
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
-    <state x="555" y="249" width="800" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1026@0.0.1920.1026" timestamp="1604172065864" />
-    <state x="741" y="432" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604159944577">
+    <state x="555" y="249" width="800" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1026@0.0.1920.1026" timestamp="1604173597068" />
+    <state x="741" y="432" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604173619052">
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
-    <state x="741" y="432" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1026@0.0.1920.1026" timestamp="1604159944577" />
+    <state x="741" y="432" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1026@0.0.1920.1026" timestamp="1604173619052" />
     <state x="741" y="455" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1604073638150" />
   </component>
 </project>
